@@ -42,3 +42,34 @@ print("Thomas" in eleves)
 print("Lise" in eleves)
 
 # range()
+
+nb_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+nb_list=list(range(0,100,1))
+print(nb_list)
+
+
+for (i) in range(0, 102, 2):
+    print(i)
+
+    for i in range(100, -1, -2):
+        print(f"mouton n°{i}")
+
+eleves = ["Thomas", "Lisa", "Helene", "Patrick", "Paul"]
+
+for eleves in eleves:
+   # eleves[i] = f"Eleve n°{i}: {eleves}"
+    
+    print(eleves[i])
+
+
+eleves = ["Thomas", "Lisa", "Helene", "Patrick", "Paul"]
+for (i, prenom) in enumerate(eleves):
+   # eleves[i] = f"Eleve n°{i + 1}: {Value}"
+   
+    print(i)
+    print(prenom)
+
+    
+    id_dbb = ["localhost", "root", "password"]
+    print(id_dbb[-1])
+    id_dbb=12345
